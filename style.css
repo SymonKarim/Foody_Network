@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  margin-bottom: 150px;
+}
+
+.main-title {
+  font-size: 50px;
+  color: rgb(51, 43, 43);
+  font-family: "Poppins", sans-serif;
+  line-height: 0.5;
+}
+
+.left-side {
+  margin: 40px 20px 40px 20px;
+  float: left;
+  margin: auto;
+  margin-left: 100px;
+}
+
+.right-side {
+  margin: 40px 20px 40px 20px;
+  float: right;
+}
+
+.divider {
+  display: flex;
+}
+
+.btn {
+  text-align: center;
+  color: white;
+  border: 50px;
+  padding: 15px 30px 15px 30px;
+  text-decoration: none;
+  border-radius: 30px;
+  margin-top: 30px;
+  border: 1px solid orange;
+  background-image: linear-gradient(to right, orange, orangered);
+}
+.about-me {
+  background-image: url(Picture/Frame\ 58.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.about-left-side {
+  height: 500px;
+  margin: 40px 20px 40px 20px;
+  float: left;
+  margin-left: 125px;
+}
+.about-right-side {
+  margin-right: 100px;
+  float: right;
+  width: 50%;
+  
+}
