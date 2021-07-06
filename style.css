@@ -76,15 +76,33 @@ body {
 }
 #social-sites {
   display: flex;
-  
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  background-color: gray;
+  padding-bottom: 20px;
 }
-.youtube-subs{
-   margin-left: 40%;text-align: center;
+.youtube-subs {
+  margin-left: 20%;
+  text-align: center;
 }
-.instagram-follower{
+.instagram-follower {
+  margin-left: 20%;
+  text-align: center;
+}
+.dribbles-shots {
+  margin-left: 20%;
   margin-right: 20%;
+  text-align: center;
 }
-.dribbles-shots{
-  margin-left: 15%;
-  margin-right: 40%;
+.footer-style {
+  background-color: black;
+  color: gray;
+  text-align: center;
+  margin: 30px;
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
