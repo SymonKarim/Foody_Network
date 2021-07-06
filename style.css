@@ -80,7 +80,7 @@ body {
 }
 #social-sites {
   display: flex;
-  margin-left: 150px;
+  /* margin-left: 150px;
   margin-right: 150px;
   margin-bottom: 40px;
   margin-top: 40px;
@@ -89,22 +89,32 @@ body {
   box-shadow: 150px 150px 150px 150px rgb(233, 229, 229);
   border-radius: 25px;
   padding-left: 100px;
-  padding-right: 100px;
+  padding-right: 100px; */
+  padding: 25px;
 }
-.youtube-subs, .dribbles-shots, .instagram-follower {
-  padding-left:180px;
-  padding-right:100px;
+.inner-social-sites{
+  display: flex;
+  background-color: white; 
+  margin: auto;
+  box-shadow: 150px 150px 150px 150px rgb(233, 229, 229);
+  border-radius: 15px;
+}
+.youtube-subs,
+.dribbles-shots,
+.instagram-follower {
+  padding-left: 100px;
+  padding-right: 100px;
   text-align: center;
 }
 
-.footer-style {
+.footer-style{
   background-color: black;
   color: gray;
   text-align: center;
-  margin-top: 30px;
+  /* margin-top: 30px;
   margin-left: 0;
   margin-right: 0;
+  margin-bottom: 0px; */
   padding-top: 10px;
   padding-bottom: 10px;
-  margin-bottom: 0px;
 }
