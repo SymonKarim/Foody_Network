@@ -3,6 +3,7 @@
 }
 body {
   font-family: "Poppins", sans-serif;
+  margin: 0;
 }
 .main-title {
   font-size: 50px;
@@ -33,16 +34,15 @@ body {
   padding: 15px 30px 15px 30px;
   text-decoration: none;
   border-radius: 30px;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  margin-left: 25px;
   border: 1px solid orange;
   background-image: linear-gradient(to right, orange, orangered);
 }
 .about-me {
-  background-image: url(Picture/Frame\ 58.jpg);
+  background-image: url("Picture/Frame\ 58.jpg");
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
 }
 .about-left-side {
   height: 700px;
@@ -59,6 +59,7 @@ body {
 
 .txt-Recipies {
   text-align: center;
+  margin-top: 100px;
 }
 .recipie-title {
   margin: 50px;
@@ -69,6 +70,9 @@ body {
 }
 .first-title {
   padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 20px;
+  border-radius: 15px;
 }
 .image-fluid {
   max-width: 100%;
@@ -84,20 +88,15 @@ body {
   padding-bottom: 20px;
   box-shadow: 150px 150px 150px 150px rgb(233, 229, 229);
   border-radius: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
-.youtube-subs {
-  margin-left: 20%;
+.youtube-subs, .dribbles-shots, .instagram-follower {
+  padding-left:180px;
+  padding-right:100px;
   text-align: center;
 }
-.instagram-follower {
-  margin-left: 20%;
-  text-align: center;
-}
-.dribbles-shots {
-  margin-left: 20%;
-  margin-right: 20%;
-  text-align: center;
-}
+
 .footer-style {
   background-color: black;
   color: gray;
