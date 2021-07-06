@@ -80,8 +80,10 @@ body {
   margin-right: 150px;
   margin-bottom: 40px;
   margin-top: 40px;
-  background-color: gray;
+  background-color: white;
   padding-bottom: 20px;
+  box-shadow: 150px 150px 150px 150px rgb(233, 229, 229);
+  border-radius: 25px;
 }
 .youtube-subs {
   margin-left: 20%;
