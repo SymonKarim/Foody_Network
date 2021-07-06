@@ -1,12 +1,12 @@
 .container {
   display: flex;
-  margin-bottom: 150px;
 }
-
+body {
+  font-family: "Poppins", sans-serif;
+}
 .main-title {
   font-size: 50px;
   color: rgb(51, 43, 43);
-  font-family: "Poppins", sans-serif;
   line-height: 0.5;
 }
 
@@ -22,9 +22,9 @@
   float: right;
 }
 
-.divider {
+/* .divider {
   display: flex;
-}
+} */
 
 .btn {
   text-align: center;
@@ -33,7 +33,9 @@
   padding: 15px 30px 15px 30px;
   text-decoration: none;
   border-radius: 30px;
-  margin-top: 30px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 25px;
   border: 1px solid orange;
   background-image: linear-gradient(to right, orange, orangered);
 }
@@ -43,8 +45,9 @@
   background-position: left;
 }
 .about-left-side {
-  height: 500px;
-  margin: 40px 20px 40px 20px;
+  height: 700px;
+  margin: 100px 20px 40px 20px;
+  margin-bottom: 0;
   float: left;
   margin-left: 125px;
 }
@@ -52,5 +55,36 @@
   margin-right: 100px;
   float: right;
   width: 50%;
+}
+
+.txt-Recipies {
+  text-align: center;
+}
+.recipie-title {
+  margin: 50px;
+  display: flex;
+}
+.recipie-title img {
+  margin-top: 5px;
+}
+.first-title {
+  padding: 10px;
+}
+.image-fluid {
+  max-width: 100%;
+  height: auto;
+}
+#social-sites {
+  display: flex;
   
+}
+.youtube-subs{
+   margin-left: 40%;text-align: center;
+}
+.instagram-follower{
+  margin-right: 20%;
+}
+.dribbles-shots{
+  margin-left: 15%;
+  margin-right: 40%;
 }
